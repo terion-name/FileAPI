@@ -1147,7 +1147,7 @@
 				});
 
 				if( !files.length ){
-					// Create fake `file` object
+					// Create fake 'file' object
 					files.push({ file: { name: api.expando } });
 				}
 
@@ -1802,7 +1802,7 @@
 				, renderImageToCanvas = api.renderImageToCanvas
 			;
 
-			// For `renderImageToCanvas`
+			// For 'renderImageToCanvas'
 			image._type = this.file.type;
 
 			while( min(w/dw, h/dh) > 2 ){
